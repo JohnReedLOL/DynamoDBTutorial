@@ -26,9 +26,9 @@ public class MoviesCreateTable {
             .build();
 */
 
-AmazonDynamoDB client = AmazonDynamoDBClientBuilder.standard()
-  .withRegion(Regions.US_EAST_1)
-  .build(); // https://console.aws.amazon.com/dynamodb/home?region=us-east-1#
+        AmazonDynamoDB client = AmazonDynamoDBClientBuilder.standard()
+          .withRegion(Regions.US_EAST_1)
+          .build(); // https://console.aws.amazon.com/dynamodb/home?region=us-east-1#
 
         DynamoDB dynamoDB = new DynamoDB(client);
 
